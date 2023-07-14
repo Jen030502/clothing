@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Service</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/se.css' %}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/service">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="service">
+            <img src="{% static 'img/ps.jpeg' %}" alt="Image 1" />
+            <h3>Personal Styling</h3>
+            <p>
+              Our expert stylists are here to assist you in creating
+              personalized outfits that suit your unique style and body type.
+            </p>
+          </div>
+          <div class="service">
+            <img src="{% static 'img/al.jpeg' %}" alt="Image 1" />
+            <h3>Alteration Services</h3>
+            <p>
+              We offer professional alteration services to ensure that your
+              garments fit you perfectly, providing comfort and confidence.
+            </p>
+          </div>
+          <div class="service">
+            <img src="{% static 'img/gift.jpeg' %}" alt="Image 1" />
+            <h3>Gift Cards</h3>
+            <p>
+              Share the joy of fashion with our gift cards, the perfect present
+              for your loved ones to explore their personal style.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Vipa Clothing. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

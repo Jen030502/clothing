@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/contact.css' %}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Age&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/service">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p>
+            Have a question, comment, or suggestion? We'd love to hear from you.
+            Get in touch with us using the contact details below:
+          </p>
+
+          <div class="contact-info">
+            <div class="contact-details">
+              <h3>Visit Our Store</h3>
+              <p>19, JivrajNagar<br />Ahmedabad, Gujrat, 380004</p>
+            </div>
+
+            <div class="contact-details">
+              <h3>Call Us</h3>
+              <p>+91 9081671920</p>
+            </div>
+
+            <div class="contact-details">
+              <h3>Email Us</h3>
+              <p>vipa.wears@gmail.com</p>
+            </div>
+          </div>
+          <a href="/service" class="cta-button">Services</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 VIPA Clothing. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Age&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="service">Services</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <p class="logo">
+          <img src="{% static 'img/vipabg.png' %}" alt="Image 1" />
+        </p>
+
+        <a href="service" class="btn">Get Started</a>
+      </div>
+    </header>
+
+    <section class="features">
+      <h2>Our Products</h2>
+      <div class="feature-box">
+        <div class="feature-item">
+          <img src="{% static 'img/p1.jpeg' %}" alt="Image 1" />
+          <h3>Oversized Jeans</h3>
+          <p>Looks super comfy and aesthetic.</p>
+        </div>
+        <div class="feature-item">
+          <img src="{% static 'img/p2.jpeg' %}" alt="Image 1" />
+          <h3>Relaxed Fit Jeans</h3>
+          <p>Never Disappoint You.</p>
+        </div>
+        <div class="feature-item">
+          <img src="{% static 'img/p3.jpg' %}" alt="Image 1" />
+          <h3>Hand Crafted Designed Jeans</h3>
+          <p>Looks Likes You Wear Confidence</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
